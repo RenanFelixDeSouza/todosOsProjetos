@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(31, 90, 251, 0.646);
+}
+
+h1{
+    font-size: 30pt;
+    text-align: center;
+    color: white;
+}
+h2#verd{
+    margin-left: 20px;
+    font-size: 30pt;
+   
+}
+h2#fal{
+    opacity: 0%;
+}
+
+h2.data{
+    font-size: 20pt;
+    text-align: center;
+    color: aliceblue;
+}
+
+.container{
+    border: solid;
+    max-width :435px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.481);
+    margin-left: 650px ; 
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.493);
+}
+form input, form label, form button{
+    display: block;
+    width: 93%;
+    height: 40px;
+    margin-left: 20px;
+}
+label{
+    margin-left: 20px;
+    font-size: 16pt;
+}
+button#verdadeiro{
+    width:94%;
+    height: 40px;
+    margin-top: 30px;
+    size: 20pt;
+    margin-left: 20px;
+    background-color: rgba(31, 90, 251, 0.446);
+    cursor: pointer;
+}
+button#falso{
+    opacity: 0%;
+}
+button#verdadeiro:hover{
+    background-color:rgba(221, 85, 85, 0.678);
+}
+table{
+    margin-left: 20px;
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-size:22px
+}
+div{ margin-left: 20px; font-size: 30px;}
+p{margin-left: 20px; font-size: 30px; margin-right: 20px;}
+section{margin-left: 20px; font-size: 30px;}
+footer{margin-left: 20px; font-size: 30px;}
+
+.paragrafoResultado {
+    background: rgb(116, 216, 219);
+    padding: 20px;
+    margin-right: 20px ;
+}
+h3 {
+    opacity: 0%;
+    margin-top: -40px;
+}
+.calculadora{
+    width: 400px;
+}
+.display{
+    margin-top: 2px;
+    font-size: 2em;
+    width: 98%;
+    text-align: right;
+}
+
+.btn{
+    width: 100%;
+    height: 35px;
+    font-size: 1em ;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.241);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgba(128, 128, 128, 0.414);
+}
+
+.btn-clear:hover{
+    background-color: rgba(223, 51, 51, 0.498);
+    color: rgba(223, 51, 51, 0.748);
+}
+.btn-eq:hover{
+    background-color:rgba(113, 113, 238, 0.616) ;
+color: rgba(67, 67, 210, 0.799);
+}
+
+input#rel {
+    width:29%;
+    height:30px;
+    margin-top: 30px;
+    size: 60pt;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 18pt;
+    border-radius: 60%;
+    background-color:rgba(67, 67, 210, 0.004);
+}
+
+h1#renan {
+font-size: 18pt;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
